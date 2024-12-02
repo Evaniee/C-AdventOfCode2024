@@ -22,6 +22,12 @@
                     else if (choice == 2)
                         Day1.Part2();
                     break;
+                case 2:
+                    if (choice == 1)
+                        Day2.Part1();
+                    else if (choice == 2)
+                        Console.WriteLine("Unimplemented");
+                    break;
                 default:
                     Console.WriteLine("Unimplemented");
                     break;

@@ -6,7 +6,7 @@ namespace C_AdventOfCode2024
     {
         public static void Part1()
         {
-            string[] lines = File.ReadAllLines("Resources\\Day1\\input.txt");
+            string[] lines = File.ReadAllLines("Resources\\Day1.txt");
 
             List<int> locations1 = new List<int>();
             List<int> locations2 = new List<int>();
@@ -30,7 +30,7 @@ namespace C_AdventOfCode2024
     
         public static void Part2()
         {
-            string[] lines = File.ReadAllLines("Resources\\Day1\\input.txt");
+            string[] lines = File.ReadAllLines("Resources\\Day1.txt");
 
             List<int> locations1 = new List<int>();
             List<int> locations2 = new List<int>();
